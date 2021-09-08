@@ -129,7 +129,7 @@ Class Categoria
 		
 		$cnx=Conexion::conectarMySql();
 
-		$sql="select * from categoria where condicion ='1'";
+		$sql="select * from categoria where condicion=1";
 
         $snt=$cnx->prepare($sql);
 
