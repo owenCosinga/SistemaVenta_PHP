@@ -11,10 +11,7 @@ Class Categoria
 	public $condicion;
 
 	//Implementamos nuestro constructor
-	public function __construct()
-	{
-
-	}
+	public function __construct(){}
 
 	//Implementamos un método para insertar registros
 	public function insertar($categoria)
