@@ -1,3 +1,4 @@
+
 <?php 
 //Ip de la pc servidor y de la base de datos
 define("DB_HOST","mysql:host=127.0.0.1; dbname=dbsistema");
